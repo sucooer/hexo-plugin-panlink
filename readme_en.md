@@ -5,7 +5,7 @@
 
 A plugin for elegantly displaying cloud storage download links in Hexo blogs, supporting multiple platforms with beautiful animation effects.
 
-English | [简体中文](./README.md)
+English | [简体中文](./readme.md)
 
 ## Preview
 

@@ -9,7 +9,7 @@ English | [简体中文](./README.md)
 
 ## Preview
 
-![Preview](https://raw.githubusercontent.com/sucooer/hexo-plugin-panlink/main/preview.gif)
+![Preview](https://raw.githubusercontent.com/sucooer/hexo-plugin-panlink/main/assets/Preview/preview.gif)
 
 ## Features
 

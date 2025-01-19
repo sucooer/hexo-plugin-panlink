@@ -1,6 +1,6 @@
 {
   "name": "hexo-plugin-panlink",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A hexo plugin for multiple cloud storage platform links with beautiful animation effects",
   "keywords": [
     "hexo",

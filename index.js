@@ -28,8 +28,6 @@ const PLATFORM_ICONS = {
 hexo.extend.generator.register('panlink-icons', function(locals) {
   try {
     const iconFiles = fs.readdirSync(ICONS_DIR);
-    console.log('Found icon files:', iconFiles);
-    
     return iconFiles.map(filename => ({
       path: `css/panlink/${filename}`,
       data: function() {
@@ -40,11 +38,6 @@ hexo.extend.generator.register('panlink-icons', function(locals) {
     console.error('Error reading icons directory:', error);
     return [];
   }
-});
-
-// 在 hexo 初始化时添加调试信息
-hexo.on('ready', () => {
-  console.log('Hexo is ready, Panlink plugin registered');
 });
 
 // 平台图标映射（使用 Base64 编码的默认图标）
@@ -68,16 +61,11 @@ hexo.extend.tag.register('panlink', function(args) {
     const processedArgs = args.map(arg => arg.replace(/^["']|["']$/g, ''));
     const [platform, name, link, code] = processedArgs;
     
-    // 获取对应平台的图标文件名
     const iconFile = PLATFORM_ICONS[platform.toLowerCase()] || 'default.svg';
     const iconPath = `/css/panlink/${iconFile}`;
     
-    console.log(`Platform: ${platform}, using icon: ${iconFile}`);
-    
-    // 构建图标HTML
     const iconHtml = `<img src="${iconPath}" width="24" height="24" alt="${platform}" />`;
     
-    // 构建提取码部分的HTML
     const codeHtml = code ? `<div class="pan-code">提取码: ${code}</div>` : '';
     
     return `<div class="pan-link-card">

@@ -11,7 +11,7 @@ const ICONS_DIR = path.join(__dirname, 'assets', 'icons');
 // 平台名称到图标文件名的映射
 const PLATFORM_ICONS = {
   'baidu': 'baidu.svg',
-  '360': '123.svg',          // 360云盘使用123.svg
+  '123': '123.svg',
   'aliyun': 'aliyun.svg',
   'lanzou': 'lanzou.png',
   'weiyun': 'weiyun.png',
@@ -25,12 +25,12 @@ const PLATFORM_ICONS = {
 };
 
 // 复制图标到博客的公共资源目录
-hexo.extend.generator.register('panlink-icons', function(locals) {
+hexo.extend.generator.register('panlink-icons', function (locals) {
   try {
     const iconFiles = fs.readdirSync(ICONS_DIR);
     return iconFiles.map(filename => ({
       path: `css/panlink/${filename}`,
-      data: function() {
+      data: function () {
         return fs.createReadStream(path.join(ICONS_DIR, filename));
       }
     }));
@@ -56,18 +56,18 @@ const DEFAULT_ICONS = {
   </svg>`
 };
 
-hexo.extend.tag.register('panlink', function(args) {
+hexo.extend.tag.register('panlink', function (args) {
   try {
     const processedArgs = args.map(arg => arg.replace(/^["']|["']$/g, ''));
     const [platform, name, link, code] = processedArgs;
-    
+
     const iconFile = PLATFORM_ICONS[platform.toLowerCase()] || 'default.svg';
     const iconPath = `/css/panlink/${iconFile}`;
-    
+
     const iconHtml = `<img src="${iconPath}" width="24" height="24" alt="${platform}" />`;
-    
+
     const codeHtml = code ? `<div class="pan-code">提取码: ${code}</div>` : '';
-    
+
     return `<div class="pan-link-card">
       <div class="pan-link-content">
         <div class="pan-icon">
@@ -84,12 +84,12 @@ hexo.extend.tag.register('panlink', function(args) {
         </div>
       </div>
     </div>`;
-    
+
   } catch (error) {
     console.error('Error in panlink plugin:', error);
     return `<div style="color: red;">Error in panlink plugin: ${error.message}</div>`;
   }
-}, {ends: false});
+}, { ends: false });
 
 console.log('=== Panlink Plugin Loaded ===');
 

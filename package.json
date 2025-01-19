@@ -1,0 +1,38 @@
+{
+  "name": "hexo-plugin-panlink",
+  "version": "1.0.0",
+  "description": "A hexo plugin for multiple cloud storage platform links with beautiful animation effects",
+  "keywords": [
+    "hexo",
+    "plugin",
+    "panlink",
+    "cloud-storage",
+    "netdisk"
+  ],
+  "homepage": "https://github.com/sucooer/hexo-plugin-panlink#readme",
+  "bugs": {
+    "url": "https://github.com/sucooer/hexo-plugin-panlink/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sucooer/hexo-plugin-panlink.git"
+  },
+  "license": "MIT",
+  "author": "anyaer",
+  "type": "commonjs",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "assets/icons/*.png",
+    "assets/icons/*.svg",
+    "assets/icons/*.jpg",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "hexo": "^6.0.0"
+  }
+}

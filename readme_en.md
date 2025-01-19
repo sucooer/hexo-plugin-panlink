@@ -1,6 +1,6 @@
 # hexo-plugin-panlink
 
-[![npm version](https://badge.fury.io/js/hexo-plugin-panlink.svg)](https://www.npmjs.com/package/hexo-plugin-panlink)
+[![npm version](https://img.shields.io/npm/v/hexo-plugin-panlink)](https://www.npmjs.com/package/hexo-plugin-panlink)
 [![license](https://img.shields.io/github/license/sucooer/hexo-plugin-panlink)](https://github.com/sucooer/hexo-plugin-panlink/blob/main/LICENSE)
 
 A plugin for elegantly displaying cloud storage download links in Hexo blogs, supporting multiple platforms with beautiful animation effects.

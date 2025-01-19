@@ -1,6 +1,6 @@
 # hexo-plugin-panlink
 
-[![npm version](https://badge.fury.io/js/hexo-plugin-panlink.svg)](https://www.npmjs.com/package/hexo-plugin-panlink)
+[![npm version](https://img.shields.io/npm/v/hexo-plugin-panlink)](https://www.npmjs.com/package/hexo-plugin-panlink)
 [![license](https://img.shields.io/github/license/sucooer/hexo-plugin-panlink)](https://github.com/sucooer/hexo-plugin-panlink/blob/main/LICENSE)
 
 一个用于在 Hexo 博客中优雅展示网盘下载链接的插件，支持多个网盘平台，并带有美观的动画效果。
@@ -43,21 +43,21 @@ npm install hexo-plugin-panlink --save
 
 ### 支持的平台
 
-| 平台 | 标识符 | 是否支持提取码 |
-|-----|-------|-------------|
-| 百度网盘 | baidu | ✅ |
-| 夸克网盘 | quark | ✅ |
-| 蓝奏云 | lanzou | ✅ |
-| 阿里云盘 | aliyun | ✅ |
-| 天翼云盘 | tianyi | ✅ |
-| 城通网盘 | chengtong | ✅ |
-| 123云盘 | 123 | ✅ |
-| 蓝奏云 | lanzou | ✅ |
-| GitHub | github | ❌ |
-| Gitee | gitee | ❌ |
-| 微云 | weiyun | ✅ |
-| 115网盘 | 115 | ✅ |
-| 迅雷云盘 | xunlei | ✅ |
+| 平台     | 标识符    | 是否支持提取码 |
+|----------|-----------|----------------|
+| 百度网盘 | baidu     | ✅              |
+| 夸克网盘 | quark     | ✅              |
+| 蓝奏云   | lanzou    | ✅              |
+| 阿里云盘 | aliyun    | ✅              |
+| 天翼云盘 | tianyi    | ✅              |
+| 城通网盘 | chengtong | ✅              |
+| 123云盘  | 123       | ✅              |
+| 蓝奏云   | lanzou    | ✅              |
+| GitHub   | github    | ❌              |
+| Gitee    | gitee     | ❌              |
+| 微云     | weiyun    | ✅              |
+| 115网盘  | 115       | ✅              |
+| 迅雷云盘 | xunlei    | ✅              |
 ## 自定义样式
 
 如果你想自定义样式，可以在你的主题 CSS 文件中覆盖以下类：

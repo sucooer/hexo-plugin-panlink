@@ -9,7 +9,7 @@
 
 ## 预览效果
 
-![Preview](https://raw.githubusercontent.com/sucooer/hexo-plugin-panlink/main/preview.gif)
+![Preview](https://raw.githubusercontent.com/sucooer/hexo-plugin-panlink/main/assets/Preview/preview.gif)
 
 ## 特性
 

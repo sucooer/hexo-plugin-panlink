@@ -43,21 +43,23 @@ npm install hexo-plugin-panlink --save
 
 ### 支持的平台
 
-| 平台     | 标识符    | 是否支持提取码 |
-|----------|-----------|----------------|
-| 百度网盘 | baidu     | ✅              |
-| 夸克网盘 | quark     | ✅              |
-| 蓝奏云   | lanzou    | ✅              |
-| 阿里云盘 | aliyun    | ✅              |
-| 天翼云盘 | tianyi    | ✅              |
-| 城通网盘 | chengtong | ✅              |
-| 123云盘  | 123       | ✅              |
-| 蓝奏云   | lanzou    | ✅              |
-| GitHub   | github    | ❌              |
-| Gitee    | gitee     | ❌              |
-| 微云     | weiyun    | ✅              |
-| 115网盘  | 115       | ✅              |
-| 迅雷云盘 | xunlei    | ✅              |
+| 平台         | 标识符    | 是否支持提取码 |
+|--------------|-----------|----------------|
+| 百度网盘     | baidu     | ✅              |
+| 夸克网盘     | quark     | ✅              |
+| 蓝奏云       | lanzou    | ✅              |
+| 阿里云盘     | aliyun    | ✅              |
+| 天翼云盘     | tianyi    | ✅              |
+| 城通网盘     | chengtong | ✅              |
+| 123云盘      | 123       | ✅              |
+| 蓝奏云       | lanzou    | ✅              |
+| GitHub       | github    | ❌              |
+| Gitee        | gitee     | ❌              |
+| 微云         | weiyun    | ✅              |
+| 115网盘      | 115       | ✅              |
+| 迅雷云盘     | xunlei    | ✅              |
+| 中国移动云盘 | yidong    | ✅              |
+
 ## 自定义样式
 
 如果你想自定义样式，可以在你的主题 CSS 文件中覆盖以下类：

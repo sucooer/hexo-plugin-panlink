@@ -43,21 +43,22 @@ In your Markdown posts, use:
 
 ### Supported Platforms
 
-| Platform | Identifier | Extraction Code Support |
-|----------|------------|------------------------|
-| Baidu Netdisk | baidu | ✅ |
-| Quark Netdisk | quark | ✅ |
-| LanzouCloud | lanzou | ✅ |
-| Aliyun Drive | aliyun | ✅ |
-| TianyiCloud | tianyi | ✅ |
-| ChengTongCloud | chengtong | ✅ |
-| 123Cloud | 123 | ✅ |
-| LanzouCloud | lanzou | ✅ |
-| GitHub | github | ❌ |
-| Gitee | gitee | ❌ |
-| WeiYun | weiyun | ✅ |
-| 115 Drive | 115 | ✅ |
-| Xunlei Cloud | xunlei | ✅ |
+| Platform           | Identifier | Extraction Code Support |
+|--------------------|------------|-------------------------|
+| Baidu Netdisk      | baidu      | ✅                       |
+| Quark Netdisk      | quark      | ✅                       |
+| LanzouCloud        | lanzou     | ✅                       |
+| Aliyun Drive       | aliyun     | ✅                       |
+| TianyiCloud        | tianyi     | ✅                       |
+| ChengTongCloud     | chengtong  | ✅                       |
+| 123Cloud           | 123        | ✅                       |
+| LanzouCloud        | lanzou     | ✅                       |
+| GitHub             | github     | ❌                       |
+| Gitee              | gitee      | ❌                       |
+| WeiYun             | weiyun     | ✅                       |
+| 115 Drive          | 115        | ✅                       |
+| Xunlei Cloud       | xunlei     | ✅                       |
+| China Mobile Cloud | yidong     | ✅                       |
 
 ## Custom Styling
 

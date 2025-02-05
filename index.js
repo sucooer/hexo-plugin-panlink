@@ -21,7 +21,8 @@ const PLATFORM_ICONS = {
   'tianyi': 'tianyi.svg',
   'chengtong': 'chengtong.svg',
   'xunlei': 'xunlei.svg',
-  '115': '115.png'
+  '115': '115.png',
+  'yidong': 'yidong.png'
 };
 
 // 复制图标到博客的公共资源目录

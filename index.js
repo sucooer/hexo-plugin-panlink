@@ -22,7 +22,10 @@ const PLATFORM_ICONS = {
   'chengtong': 'chengtong.svg',
   'xunlei': 'xunlei.svg',
   '115': '115.png',
-  'yidong': 'yidong.png'
+  'yidong': 'yidong.png',
+  'jianguo': 'jianguo.png',
+  'uc': 'uc.png',
+  'wenshushu': 'wenshushu.png'
 };
 
 // 复制图标到博客的公共资源目录

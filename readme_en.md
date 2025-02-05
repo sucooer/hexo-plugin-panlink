@@ -59,6 +59,9 @@ In your Markdown posts, use:
 | 115 Drive          | 115        | ✅                       |
 | Xunlei Cloud       | xunlei     | ✅                       |
 | China Mobile Cloud | yidong     | ✅                       |
+| Jianguoyun         | jianguo    | ✅                       |
+| UC Cloud           | uc         | ✅                       |
+| WenShushu          | wenshushu  | ✅                       |
 
 ## Custom Styling
 

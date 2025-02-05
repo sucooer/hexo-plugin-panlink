@@ -59,6 +59,9 @@ npm install hexo-plugin-panlink --save
 | 115网盘      | 115       | ✅              |
 | 迅雷云盘     | xunlei    | ✅              |
 | 中国移动云盘 | yidong    | ✅              |
+| 坚果云       | jianguo   | ✅              |
+| UC网盘       | uc        | ✅              |
+| 文叔叔       | wenshushu | ✅              |
 
 ## 自定义样式
 
